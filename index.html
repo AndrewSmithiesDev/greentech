@@ -13,6 +13,52 @@
   </head>
 
   <body>
+    <header>
+      <nav class="navbar navbar-expand-lg my-navbar">
+        <div class="container-fluid">
+          <a
+            class="navbar-brand d-flex align-items-center gap-2 my-navbar-brand"
+            href="index.html"
+            ><img
+              src="img/logo.png"
+              width="32"
+              height="32"
+              alt="Image GreenTech"
+            /><span>GreenTech</span></a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerContent"
+            aria-controls="navbarTogglerContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerContent">
+            <ul class="navbar-nav ms-auto me-2 mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Accueil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="services.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="equipe.html">Équipe</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="temoignages.html">Témoignages</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
     <main>
       <section class="hero">
         <div class="hero-overlay"></div>
@@ -87,19 +133,51 @@
     </main>
 
     <footer class="footer bg-dark py-4">
-        <div class="container text-primary">
+      <div class="container text-primary">
+        <div class="row g-4">
+          <div class="col-12 col-md-4">
+            <p class="fw-bold footer-title">Informations</p>
+            <p>&copy; 2025 GreenTech. All rights reserved.</p>
+            <p>Innovating sustainable solutions for a better world.</p>
+          </div>
+          <div class="col-12 col-md-4">
+            <p class="fw-bold footer-title">Menu</p>
             <div class="row">
-                <div class="col-12 col-md-4">
-                    <p>Informations</p>
-                </div>
-                <div class="col-12 col-md-4">
-                    <p>Menu</p>
-                </div>
-                <div class="col-12 col-md-2">
-                    <p>Contact</p>
-                </div>
+              <div class="col-6">
+                <ul class="list-unstyled">
+                  <li><a href="index.html">Acceuil</a></li>
+                  <li><a href="services.html">Services</a></li>
+                  <li><a href="equipe.html">Équipe</a></li>
+                </ul>
+              </div>
+              <div class="col-6">
+                <ul class="list-unstyled">
+                  <li><a href="contact.html">Contact</a></li>
+                  <li><a href="temoignages.html">Témoignages</a></li>
+                </ul>
+              </div>
             </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <p class="fw-bold footer-title">Contact</p>
+            <div class="row">
+              <div class="col-6 d-flex flex-column">
+                <span>GreenTech Inc.</span>
+                <span>2450 Evergreen Parkway</span>
+                <span>Suite 500</span>
+                <span>San Vista, CA 94085</span>
+                <span>United States</span>
+              </div>
+              <div class="col-6 fs-5">
+                <a href="#"><i class="bi bi-twitter-x"></i></a>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+                <a href=""><i class="bi bi-linkedin"></i></a>
+                <a href=""><i class="bi bi-youtube"></i></a>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </footer>
 
     <!-- Bootstrap JavaScript Libraries -->

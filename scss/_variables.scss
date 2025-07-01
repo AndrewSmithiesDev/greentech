@@ -1,3 +1,13 @@
 $primary: #fefae0;
 $secondary: #606c38;
 $dark: #283618;
+
+$focus-ring-opacity: .25;
+$focus-ring-color: rgba($secondary, $focus-ring-opacity);
+
+$navbar-light-color:                rgba($primary, .65);
+$navbar-light-hover-color:          rgba($primary, .8);
+$navbar-light-active-color:         rgba($primary, 1);
+$navbar-light-disabled-color:       rgba($primary, .3);
+$navbar-light-icon-color:           rgba($primary, .75);
+$navbar-light-toggler-border-color: rgba($primary, .15);

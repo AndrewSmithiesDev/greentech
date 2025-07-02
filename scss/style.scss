@@ -18,6 +18,16 @@ body {
     margin: 0;
 }
 
+.my-card {
+  --bs-card-bg: none;
+  --bs-card-title-color: #{$dark};
+  --bs-card-color: #{$dark};
+  --bs-card-border-color: #{$dark};
+  --bs-card-cap-bg: none;
+  --bs-card-cap-padding-y: var(--bs-card-spacer-y);
+  --bs-card-height: 100%;
+}
+
 .my-btn-secondary {
   @include button-variant(
     $background: $secondary,

@@ -11,3 +11,13 @@ $navbar-light-active-color:         rgba($primary, 1);
 $navbar-light-disabled-color:       rgba($primary, .3);
 $navbar-light-icon-color:           rgba($primary, .75);
 $navbar-light-toggler-border-color: rgba($primary, .15);
+
+$spacer: 1rem;
+
+$card-bg: none;
+$card-title-color: $dark;
+$card-color: $dark;
+$card-border-color: $dark;
+$card-cap-bg: none;
+$card-cap-padding-y: $spacer;
+$card-height: 100%;

@@ -1,0 +1,12 @@
+.services-hero {
+  padding: 100px 0 40px;
+}
+
+.my-card {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.my-card:hover {
+  transform: scale(1.05);
+  box-shadow: $box-shadow;
+}
